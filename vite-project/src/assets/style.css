@@ -68,3 +68,10 @@
     background-color: rgba(0, 0, 0, .5);
 
 }
+
+.nobooksfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}

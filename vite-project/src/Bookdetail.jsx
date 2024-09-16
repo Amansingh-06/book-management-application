@@ -5,7 +5,8 @@ function Bookdetail(props) {
     return (
         <div className="book-list">
             {props.booksdata.map((data) => (
-                <Book bookdata={data}></Book>
+
+                <Book key={data.id} bookdata={data}></Book>
             ))}
 
         </div>
